@@ -1,0 +1,46 @@
+h1 {
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -2px;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+label {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+
+input {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  padding: 15px;
+  border: 1px solid black;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-family: 'Fira Sans', sans-serif;
+  padding: 15px 40px;
+  font-size: 1rem;
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  transition: 0.2s background-color linear;
+}
