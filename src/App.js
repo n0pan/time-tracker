@@ -7,12 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <div style={{ textAlign: 'center' }}>
-          <h1>Time Tracker</h1>
+          <h1 style={{ marginBottom: 0 }}>Time Tracker</h1>
           <p>Welcome to Time Tracker.</p>
           <p>Please login in order to begin tracking your time.</p>
         </div>
-        {/* <LoginContainer /> */}
-        <DashboardContainer />
+        <LoginContainer />
+        {/* <DashboardContainer /> */}
       </div>
     );
   }
