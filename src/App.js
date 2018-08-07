@@ -12,7 +12,7 @@ class App extends Component {
           <p>Please login in order to begin tracking your time.</p>
         </div>
         <LoginContainer />
-        {/* <DashboardContainer /> */}
+        <DashboardContainer />
       </div>
     );
   }
